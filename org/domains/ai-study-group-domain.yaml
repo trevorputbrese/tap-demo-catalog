@@ -1,0 +1,8 @@
+apiVersion: backstage.io/v1alpha1
+kind: Domain
+metadata:
+  name: ai-review-domain
+  namespace: DPD
+  description: AI Review Domain
+spec:
+  owner: DPD

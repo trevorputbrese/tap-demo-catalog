@@ -1,0 +1,9 @@
+apiVersion: backstage.io/v1alpha1
+kind: System
+metadata:
+  name: ai-review-system
+  namespace: dpd
+  description: AI Review System
+spec:
+  owner: global-team
+  domain: ai-review-domain

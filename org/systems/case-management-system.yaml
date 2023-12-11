@@ -1,0 +1,9 @@
+apiVersion: backstage.io/v1alpha1
+kind: System
+metadata:
+  name: case-management-system
+  namespace: dpd
+  description: Case Management
+spec:
+  owner: dpd-team
+  domain: case-management-domain

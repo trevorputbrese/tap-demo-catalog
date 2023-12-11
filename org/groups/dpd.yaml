@@ -1,0 +1,26 @@
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: DET
+  namespace: DPD
+  description: Data Privacy Division
+  links:
+    - url: https://ww.dpd.gov/about-us
+      title: Dept of Ethical Tech - Data Privacy Division
+spec:
+  type: group
+  profile:
+    displayName: Dept of Ethical Tech - Data Privacy Division
+    email: contact@dpd.gov
+  parent: DET
+  children:
+    - DPD-team
+---
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: det-teams
+  namespace: DPD
+spec:
+  targets:
+    - ../teams/DPD.yaml

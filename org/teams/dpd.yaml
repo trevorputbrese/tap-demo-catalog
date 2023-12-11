@@ -1,0 +1,24 @@
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: dpd-team
+  namespace: dpd
+  description: DPD Group
+spec:
+  type: Team
+  profile:
+    displayName: DET-DPD Team
+  parent: DET
+  children: []
+  members:
+    - jdoe
+    - jsmith
+---
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: dpd-team-members
+spec:
+  targets:
+    - ../users/jdoe.yaml
+    - ../users/jsmith.yaml

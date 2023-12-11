@@ -1,0 +1,31 @@
+# A group describes an organizational entity, such as for example a team, a business unit, or a loose collection of people in an interest group. Members of these groups are modeled in the catalog as kind User.
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: DET
+  namespace: DPD
+  description: U.S. Department of Ethical Technology
+  links:
+    - url: https://www.det.gov/
+      title: U.S. Department of Ethical Technology
+spec:
+  type: organization
+  profile:
+    displayName: U.S. Department of Ethical Technology
+    email: contact@det.gov
+  children:
+    - DPD
+---
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: DPD-subgroup
+  namespace: global
+spec:
+  targets:
+    - ./org/groups/uscis.yaml
+    - ./org/domains/immigration-domain.yaml
+    - ./org/domains/case-management-domain.yaml
+    - ./org/domains/ioe-domain.yaml
+    - ./org/systems/immigration-system.yaml
+    - ./org/systems/case-management-system.yaml
