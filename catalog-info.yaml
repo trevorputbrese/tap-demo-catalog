@@ -20,10 +20,10 @@ apiVersion: backstage.io/v1alpha1
 kind: Location
 metadata:
   name: DPD-subgroup
-  namespace: global
+  namespace: dpd
 spec:
   targets:
-    - ./org/groups/uscis.yaml
+    - ./org/groups/dpd.yaml
     - ./org/domains/ai-review-domain.yaml
     - ./org/domains/case-management-domain.yaml
     - ./org/domains/ioe-domain.yaml

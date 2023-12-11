@@ -5,5 +5,5 @@ metadata:
   namespace: dpd
   description: AI Review System
 spec:
-  owner: global-team
+  owner: dpd-team
   domain: ai-review-domain
