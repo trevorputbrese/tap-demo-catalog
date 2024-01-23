@@ -5,4 +5,4 @@ metadata:
   namespace: ioe
   description: IOE Domain
 spec:
-  owner: DPD
+  owner: dpd
