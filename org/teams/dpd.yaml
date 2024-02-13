@@ -3,11 +3,11 @@ kind: Group
 metadata:
   name: dpd-team
   namespace: dpd
-  description: DPD Group
+  description: DPD-group
 spec:
   type: Team
   profile:
-    displayName: DET-DPD Team
+    displayName: DET DPD Team
   parent: DET
   children: []
   members:
