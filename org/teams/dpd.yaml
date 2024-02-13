@@ -8,7 +8,7 @@ spec:
   type: Team
   profile:
     displayName: DET DPD Team
-  parent: DET
+  parent: det
   children: []
   members:
     - jdoe
