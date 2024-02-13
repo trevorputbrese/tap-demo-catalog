@@ -23,7 +23,7 @@ metadata:
   namespace: dpd
 spec:
   targets:
-    - ./org/groups/dpd.yaml
+    - ./org/groups/det.yaml
     - ./org/domains/ai-review-domain.yaml
     - ./org/domains/case-management-domain.yaml
     - ./org/domains/ioe-domain.yaml
