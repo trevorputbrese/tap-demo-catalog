@@ -12,7 +12,7 @@ spec:
   profile:
     displayName: Dept of Ethical Tech - Data Privacy Division
     email: contact@dpd.gov
-  parent: det
+  parent: det-cabinet
   children:
     - dpd-team
 ---
