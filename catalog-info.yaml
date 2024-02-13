@@ -2,7 +2,7 @@
 apiVersion: backstage.io/v1alpha1
 kind: Group
 metadata:
-  name: DET
+  name: det
   namespace: dpd
   description: U.S. Department of Ethical Technology
   links:
@@ -14,12 +14,12 @@ spec:
     displayName: U.S. Department of Ethical Technology
     email: contact@det.gov
   children:
-    - DPD
+    - dpd
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Location
 metadata:
-  name: DPD-subgroup
+  name: dpd-subgroup
   namespace: dpd
 spec:
   targets:
