@@ -3,7 +3,7 @@ kind: Group
 metadata:
   name: dpd-team
   namespace: dpd
-  description: DPD-group
+  description: dpd-group
 spec:
   type: Team
   profile:
