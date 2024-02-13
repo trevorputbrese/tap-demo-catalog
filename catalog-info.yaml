@@ -3,7 +3,7 @@ apiVersion: backstage.io/v1alpha1
 kind: Group
 metadata:
   name: DET
-  namespace: DPD
+  namespace: dpd
   description: U.S. Department of Ethical Technology
   links:
     - url: https://www.det.gov/
